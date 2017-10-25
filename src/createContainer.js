@@ -3,7 +3,11 @@
  */
 
 import createClass from 'create-react-class';
-import React from 'react';
+//import React from 'react';
+import {h, render} from 'preact';
+
+/** @jsx h */
+
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
 import ReactMeteorData from './ReactMeteorData';
